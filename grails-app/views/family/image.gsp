@@ -1,0 +1,1 @@
+<img src="${createLink(action:'displayPhoto', id:familyInstance?.id)}" />

@@ -1,21 +1,22 @@
 package org.chccc
 
 class Person {
-	String firstName;
-	String lastName;
+	String name;
 	String email;
 	String cellPhone;
 	String phone
 	String sex
+	Family family
 	String toString(){
-		return firstName+" "+lastName;
+		return name;
 	}
 	
 	static hasMany = [memberships:Membership]
+	//static hasOne = [address:Address]
+	//static belongsTo = Family
 	
     static constraints = {
-		firstName()
-		lastName()
+		name()
 		email()
 		cellPhone()
 		phone()

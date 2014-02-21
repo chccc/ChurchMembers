@@ -1,0 +1,5 @@
+create database chcccmembersdb
+	CHARACTER SET utf8;
+	
+CREATE USER 'chcccmembers'@'localhost' IDENTIFIED BY '53chccc2004';
+GRANT ALL ON chcccmembersdb.* TO 'chcccmembers'@'localhost';
