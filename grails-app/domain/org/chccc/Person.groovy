@@ -20,7 +20,7 @@ class Person {
 		email()
 		cellPhone()
 		phone()
-		sex(inList: ["男","女"])
+		sex(inList: ["Male","Femal"])
     }
 	
 	

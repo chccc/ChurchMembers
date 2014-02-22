@@ -9,5 +9,7 @@ class FellowshipGroup {
 	
 	static hasMany = [memberships:Membership]
     static constraints = {
+		name()
+		description()
     }
 }

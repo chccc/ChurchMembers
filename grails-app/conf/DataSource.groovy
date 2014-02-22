@@ -13,7 +13,7 @@ environments {
     development {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:mysql://localhost:3306/chcccmembersdb?useUnicode=yes&characterEncoding=UTF-8"
+            url = "jdbc:mysql://localhost:8889/chcccmembersdb?useUnicode=yes&characterEncoding=UTF-8"
 			username = "chcccmembers"
 			password = "53chccc2004"
         }
