@@ -2,7 +2,8 @@ package org.chccc
 
 class FamilyController {
 	static scaffold=Family
-    
+    static menuName="Family Menu"
+	
 	
 	def displayPhoto = {
 		Family family=Family.get(params.id)
